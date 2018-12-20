@@ -1,3 +1,28 @@
+# Redux with React
+
+This is for reference as I learn Redux with React.
+
+## A rundown
+
+This is pretty tricky stuff to wrap your head around, but like anything it will eventually click.
+
+Basically there are three important things in Redux:
+- Actions
+- Reducers
+- Store
+
+**Actions** are different descriptions of what can happen to the application state.
+
+**Reducers** actually implements those changes. There can be multiple reducers for different areas of state, but they all connect to just one Store.
+
+The **Store** brings together actions and reducers. In a Redux application there is just one store — its like the hub where state is stored.
+
+## Resources
+
+- [The official Redux basic tutorial](https://redux.js.org/basics/basic-tutorial)
+- [Dan Abromov's Egghead.io tutorial - Getting Started With Redux](https://egghead.io/courses/getting-started-with-redux)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
